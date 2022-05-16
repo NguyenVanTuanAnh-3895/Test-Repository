@@ -1,18 +1,23 @@
-
-            #nameheader{
-                color:red;
-                font-size:20px;
-            }
-.secondherder{
-    color: green;
-    font-size: 15px;
+.box {
+    height: 60px;
 }
 
-
-            /* có nhiều cách để gọi thẻ */
-:root{
-    --text-color: red;
+.box1 {
+    width: 25%;
+    background-color: green;
 }
-h1{
-    color: var(--text-color);
+
+.box2 {
+    width: 50%;
+    background-color: violet;
+}
+
+.box3 {
+    width: 75%;
+    background-color: brown;
+}
+
+.box4 {
+    width: 100%;
+    background-color: orange;
 }

@@ -1,129 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- <meta charset="UTF-8"> -->
-        <title>F8 - shop, ví dụ</title>
-
-        <!-- cách dùng CSS -->
-        <!-- link file css với kiểu extenrnal với thẻ link, thuộc tính stylesheet như sau -->
-        <link rel="stylesheet" href="main.css">
-
-        <!-- cách dùng CSS -->
-        <!-- sử dụng thẻ css kiểu internal với thẻ style như sau -->
-        <!-- <style>
-            h1{
-                color:red;
-                font-size:20px;
-            }
-            p{
-                color: green;
-            }
-        </style> -->
-
-
-    </head>
-
-    <body>
-        
-        <h2 class="title">Tiêu đề 1</h2>
-
-        <div class="post-item">
-            <h2 class="title">Tiêu đề 2</h2>
-            <h2>Tiêu đề 3</h2>
-        </div>
-        <style>
-        .post-item .title{
-            color:#333;
-            font-size: 28px;
-        }
-        </style>
-
-        <div>
-            <!-- thẻ button, nút nhân -->
-            <button>nhấn</button>
-            <!-- thẻ input, nhập dữ liệu -->
-                <!-- loại checkbox -->
-            <input type="checkbox">
-                <!-- loại radio -->
-
-            <input name = "gener" type="radio">
-            <input name = "gener" type="radio">
-            <input name = "gener" type="radio">
-
-            <!-- viết tiêu đề kích cỡ h1 -->
-            <h1 id = nameheader>Xây dựng đường sắt từ Thủ Thiêm đến sân bay Long Thành</h1>
-            <h1 class = secondherder>Xây dựng đường sắt từ </h1>
-            <h1 class = secondherder>Thủ Thiêm đến sân bay Long Thành</h1>
-
-            <!-- cách dùng CSS -->
-            <!-- sử dụng thẻ css với kiểu inline ngay trong thẻ html với thuộc tính style như sau -->
-            <!-- <h1 style="color:red; font-size:20px">Xây dựng đường sắt từ Thủ Thiêm đến sân bay Long Thành</h1> -->
-
-            <!-- đoạn văn định dạng paragraph -->
-            <p>Tuyến đường sắt nhẹ nối Thủ Thiêm (TP HCM) với sân bay Long Thành (Đồng Nai) dài 38 km sẽ được xây dựng với tổng đầu tư dự kiến 40.500 tỷ đồng.
-                Ngày 30/3, Phó thủ tướng Lê Văn Thành chỉ đạo Bộ Giao thông Vận tải thống nhất với các địa phương (Đồng Nai, Bà Rịa Vũng Tàu, TP HCM) để xây
-                dựng đường sắt nhẹ Thủ Thiêm - sân bay Long Thành và Biên Hòa - Vũng Tàu, đảm bảo phù hợp quy hoạch, đúng thẩm quyền. Tuyến đường sắt Biên Hòa
-                - Vũng Tàu dài 84 km, điểm đầu tại ga Trảng Bom, điểm cuối tại cảng Cái Mép - Thị Vải, tổng đầu tư hơn 50.000 tỷ đồng.</p>
-            <!-- thẻ image -->
-            <img src="https://i1-vnexpress.vnecdn.net/2022/03/30/duong-sat-4660-1648625311.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=vBCwBRh_KpwTiqQgIl1Awg" alt="ga bình triệu">
-            <!-- thẻ anchor, dân liên kết -->
-            <a href="https://i1-vnexpress.vnecdn.net/2022/03/30/duong-sat-4660-1648625311.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=vBCwBRh_KpwTiqQgIl1Awg">tới ảnh ga bình triệu</a>
-            <!-- thẻ danh sách -->
-            <ul>
-                <li>danh sách 1</li>
-                <li>danh sách 2</li>
-            </ul>
-            <!-- thẻ bảng -->
-            <table>
-                <!-- tiêu đề bảng -->
-                <thead>
-                    <th>stt</th>
-                    <th>tên</th>
-                    <th>tuổi</th>
-                </thead>
-                <!-- thân bảng -->
-                <tbody>
-                    <!-- table round, số cột -->
-                    <tr>
-                        <!-- table  -->
-                        <td>1</td>
-                        <td>nam</td>
-                        <td>95</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>nam 2</td>
-                        <td>98</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>nam 3</td>
-                        <td>96</td>
-                    </tr>
-                </tbody>
-            </table>
-
-        </body>
-</div>
+<head>
+    <meta charset="UTF-8">
+    <title>Ví dụ sử dụng đơn vị % #1</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="box box1">BOX 1</div>
+    <div class="box box2">BOX 2</div>
+    <div class="box box3">BOX 3</div>
+    <div class="box box4">BOX 4</div>
+</body>
 </html>
-<!--  -->
-<!-- 
-    1 h1 - h6 heading
-    2 p - paragraph
-    3 img - imgae
-    4 a - anchor
-    5 ul,li - unordered list, list item
-    6 table
-    7 input
-    8 button
-    9 div
-
- -->
-
- <!-- sử dụng CSS trong html
-có 3 cách sử dụng css trong file html
-test thay doi github
-    1. internal sử dụng css bên trong file html
-    2. external sử dụng css bên ngoài file html và link file đấy vào bên trong file
-    3. inline html sử dụng css ngay bên trong thẻ html như một thuộc tính attribute, nếu sử dụng nhiều thuộc tính thì các thẻ thuộc tính được ngăn cách bởi dấu chấm phẩy
- -->
