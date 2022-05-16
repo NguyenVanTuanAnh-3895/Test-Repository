@@ -10,3 +10,9 @@
 
 
             /* có nhiều cách để gọi thẻ */
+:root{
+    --text-color: red;
+}
+h1{
+    color: var(--text-color);
+}
